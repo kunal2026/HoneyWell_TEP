@@ -114,6 +114,6 @@ top_features.csv → Top 7 contributing features per entry
 
 [5] A. Chatterjee and B. S. Ahmed, "IoT anomaly detection methods and applications: A survey," arXiv, vol. 2207, p. 9092, Jul. 2022. [Online]. Available: https://arxiv.org/abs/2207.09092. 
 
-Scikit-learn documentation: https://scikit-learn.org/
+[6] Scikit-learn documentation: https://scikit-learn.org/
 
-TensorFlow documentation: https://www.tensorflow.org/
+[7] TensorFlow documentation: https://www.tensorflow.org/
