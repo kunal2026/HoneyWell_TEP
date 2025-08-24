@@ -15,21 +15,32 @@ Save and visualize model results for further analysis.
 
 # ⚙️ Installation & Setup
 1️⃣ Clone the Repository
-```
-git clone https://github.com/kunal2026/HoneyWell_TEP.git
-cd HoneyWell_TEP
-```
+    ```
+    git clone https://github.com/kunal2026/HoneyWell_TEP.git
+    ```
+    ```
+    cd HoneyWell_TEP
+    ```
 2️⃣ Create Virtual Environment
-```
-python -m venv venv
-source venv/bin/activate      # Linux / macOS
-venv\Scripts\activate         # Windows PowerShell
-```
+    ```
+    python -m venv venv
+    ```
+    Linux / macOS
+    ```
+    source venv/bin/activate      
+    ```
+    Windows PowerShell
+    ```
+    venv\Scripts\activate         
+    ```
 3️⃣ Install Dependencies
-```
-pip install -r web/requirements.txt
-pip install tensorflow       (for AutoEncoders)
-```
+    ```
+    pip install -r web/requirements.txt
+    ```
+    (for AutoEncoders)
+    ```
+    pip install tensorflow       
+    ```
 # 🚀 Usage
 The main script is models/run_algorithms.py.
 It supports:
