@@ -105,18 +105,14 @@ top_features.csv → Top 7 contributing features per entry
 
 # 📚 References
 [1] A. Zimek and P. Filzmoser, "There and back again: Outlier detection between statistical reasoning and data mining algorithms," Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, vol. 3, no. 1, pp. 1–17, Jan. 2013. 
-Wikipedia
 
 [2] E. Gujral, "Survey: Anomaly Detection Methods," UCR MADLab, 2023. [Online]. Available: https://www.cs.ucr.edu/~egujr001/ucr/madlab/publication/EG_2023_Anomaly_Detection_Methods.pdf. [Accessed: Aug. 24, 2025]. 
-Computer Science and Engineering
 
 [3] S. Pimentel, D. Clifton, L. Clifton, and L. Tarassenko, "A review of novelty detection," Signal Processing, vol. 99, pp. 215–249, Apr. 2014. 
-Wikipedia
 
 [4] P. Rousseeuw and A. Leroy, Robust Regression and Outlier Detection, Wiley, 1987. 
-Wikipedia
 
-[5] A. Chatterjee and B. S. Ahmed, "IoT anomaly detection methods and applications: A survey," arXiv, vol. 2207, p. 9092, Jul. 2022. [Online]. Available: https://arxiv.org/abs/2207.09092. [Accessed: Aug. 24, 2025].
+[5] A. Chatterjee and B. S. Ahmed, "IoT anomaly detection methods and applications: A survey," arXiv, vol. 2207, p. 9092, Jul. 2022. [Online]. Available: https://arxiv.org/abs/2207.09092. 
 
 Scikit-learn documentation: https://scikit-learn.org/
 
