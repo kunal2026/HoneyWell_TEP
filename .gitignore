@@ -1,0 +1,27 @@
+# Ignore Python virtual environments
+venv/
+*/venv/
+web/venv/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore large datasets or models
+*.h5
+*.pkl
+*.joblib
+*.dll
+*.so
+*.dylib
+*.bin
+*.ckpt
