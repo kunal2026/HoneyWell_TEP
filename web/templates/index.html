@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Anomaly Detector UI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="card">
+    <h1>Anomaly Detector</h1>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for m in messages %}
+          <div class="flash">{{ m }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+    <form method="post" enctype="multipart/form-data">
+      <label>Upload CSV</label>
+      <input type="file" name="file" accept=".csv" required>
+
+      <label>Algorithm</label>
+      <select name="algorithm">
+        {% for val, label in algorithms %}
+          <option value="{{ val }}">{{ label }}</option>
+        {% endfor %}
+      </select>
+
+      <label>Mode</label>
+      <select name="mode">
+        <option value="fast">Fast (quick, approximate)</option>
+        <option value="balanced" selected>Balanced (default)</option>
+        <option value="accurate">Accurate (slower, best quality)</option>
+      </select>
+
+      <button class="submit" type="submit">Run & Download</button>
+      <p class="hint">
+        Output: original columns + <code>abnormality_score</code> (0–100).  
+        Auto mode picks the best algorithm by tail-separation.  
+        Mode controls trade-off between speed and accuracy.
+      </p>
+    </form>
+  </div>
+</body>
+</html>
