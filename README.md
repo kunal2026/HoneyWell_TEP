@@ -28,11 +28,11 @@ python -m venv venv
 ```
 Linux / macOS
 ```
-source venv/bin/activate      
+source venv/bin/activate
 ```
 Windows PowerShell
 ```
-venv\Scripts\activate         
+venv\Scripts\activate
 ```
 3️⃣ Install Dependencies
 ```
@@ -40,7 +40,7 @@ pip install -r web/requirements.txt
 ```
 (for AutoEncoders)
 ```
-pip install tensorflow       
+pip install tensorflow
 ```
 # 🚀 Usage
 The main script is models/run_algorithms.py.
