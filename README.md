@@ -1,4 +1,4 @@
-📌 Project Overview
+# 📌 Project Overview
 This project focuses on Anomaly Detection in the Tennessee Eastman Process (TEP), a well-known industrial benchmark used for process control and fault detection research.
 
 We implement multiple machine learning and deep learning models to detect anomalies in TEP sensor data, with options for fast approximate detection or accurate but computationally heavier detection.
@@ -13,7 +13,7 @@ Extract Top 7 contributing features per data entry explaining anomalies.
 
 Save and visualize model results for further analysis.
 
-⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 1️⃣ Clone the Repository
 ```
 git clone https://github.com/kunal2026/HoneyWell_TEP.git
@@ -27,9 +27,10 @@ venv\Scripts\activate         # Windows PowerShell
 ```
 3️⃣ Install Dependencies
 ```
-pip install -r requirements.txt
+pip install -r web/requirements.txt
+pip install tensorflow       (for AutoEncoders)
 ```
-🚀 Usage
+# 🚀 Usage
 The main script is models/run_algorithms.py.
 It supports:
 
@@ -42,12 +43,21 @@ Run:
 python web/app.py
 ```
 
+After that select:
+
+    1. File
+    2. Model
+    3. Mode
+
+    
 Output
 Top 7 anomaly features per entry as columns.
 
 Anomaly scores + predictions saved in results/.
 
-📊 Models Implemented
+This file can be downloaded.
+
+# 📊 Models Implemented
 Isolation Forest (Sklearn)
 
 Local Outlier Factor (LOF)
@@ -58,7 +68,7 @@ Principal Component Analysis (PCA-based anomaly detection)
 
 Deep Autoencoder (TensorFlow/Keras)
 
-🔧 Configuration
+# 🔧 Configuration
 You can configure:
 
 Dataset path (data/ directory)
@@ -67,12 +77,13 @@ Model parameters (edit config.json or modify arguments)
 
 Output directory (results/)
 
-🧪 Example Workflow
+# 🧪 Example Workflow
 Prepare dataset in data/.
 
 Run anomaly detection:
-
-python models/run_algorithms.py --mode fast --model all
+```
+python web/app.py
+```
 Check results in results/:
 
 anomaly_scores.csv → anomaly scores per sample
@@ -80,11 +91,7 @@ anomaly_scores.csv → anomaly scores per sample
 top_features.csv → Top 7 contributing features per entry
 
 
-
-📜 License
-This project is licensed under the MIT License – you are free to use, modify, and distribute it with attribution.
-
-📚 References
+# 📚 References
 Downs, J. J., & Vogel, E. F. (1993). A plant-wide industrial process control problem. Computers & chemical engineering, 17(3), 245-255.
 
 Scikit-learn documentation: https://scikit-learn.org/
