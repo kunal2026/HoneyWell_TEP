@@ -5,13 +5,13 @@ We implement multiple machine learning and deep learning models to detect anomal
 
 The pipeline is modular and extensible, allowing you to:
 
-Run anomaly detection using Isolation Forest, Local Outlier Factor (LOF), One-Class SVM, PCA, Autoencoder (TensorFlow/Keras).
-
-Select between Fast Mode (optimized for speed, still preserves feature importance length) and Accurate Mode (full evaluation across models).
-
-Extract Top 7 contributing features per data entry explaining anomalies.
-
-Save and visualize model results for further analysis.
+    Run anomaly detection using Isolation Forest, Local Outlier Factor (LOF), One-Class SVM, PCA, Autoencoder (TensorFlow/Keras).
+    
+    Select between Fast Mode (optimized for speed, still preserves feature importance length) and Accurate Mode (full evaluation across models).
+    
+    Extract Top 7 contributing features per data entry explaining anomalies.
+    
+    Save and visualize model results for further analysis.
 
 # ⚙️ Installation & Setup
 1️⃣ Clone the Repository
@@ -62,12 +62,10 @@ After that select:
     3. Mode
 
     
-Output
-Top 7 anomaly features per entry as columns.
-
-Anomaly scores + predictions saved in results/.
-
-This file can be downloaded.
+Output:
+    Top 7 anomaly features per entry as columns.
+    Anomaly scores + predictions saved in results/.
+    This file can be downloaded.
 
 # 📊 Models Implemented
 Isolation Forest (Sklearn)
