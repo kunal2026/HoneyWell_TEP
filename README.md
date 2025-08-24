@@ -108,7 +108,7 @@ top_features.csv → Top 7 contributing features per entry
 # 📚 References
 _[1] A. Zimek and P. Filzmoser, "There and back again: Outlier detection between statistical reasoning and data mining algorithms," Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery, vol. 3, no. 1, pp. 1–17, Jan. 2013._
 
-_[2] E. Gujral, "Survey: Anomaly Detection Methods," UCR MADLab, 2023. _
+_[2] E. Gujral, "Survey: Anomaly Detection Methods," UCR MADLab, 2023._
 
 _[3] S. Pimentel, D. Clifton, L. Clifton, and L. Tarassenko, "A review of novelty detection," Signal Processing, vol. 99, pp. 215–249, Apr. 2014._
 
